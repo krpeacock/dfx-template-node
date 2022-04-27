@@ -4,7 +4,9 @@
   "description": "Node.js example interacting with a canister using agent-js",
   "main": "index.js",
   "scripts": {
-    "start": "NODE_ENV=development node src/node/script.mjs"
+    "start": "NODE_ENV=development NODE_OPTIONS=--experimental-vm-modules NODE_NO_WARNINGS=1 node src/node/script.mjs",
+    "generate": "dfx generate",
+    "postgenerate": "mv src/declarations/hello/hello.did.js src/declarations/hello/hello.did.mjs"
   },
   "keywords": [],
   "author": "",
