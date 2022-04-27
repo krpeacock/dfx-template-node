@@ -1,0 +1,17 @@
+{
+  "name": "hello-ic-node",
+  "version": "1.0.0",
+  "description": "Node.js example interacting with a canister using agent-js",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=development node src/node/script.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@dfinity/agent": "^0.11.1",
+    "@dfinity/candid": "^0.11.1",
+    "@dfinity/principal": "^0.11.1"
+  }
+}

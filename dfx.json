@@ -5,15 +5,6 @@
     "hello": {
       "type": "motoko",
       "main": "src/hello/main.mo"
-    },
-    "hello_assets": {
-      "type": "assets",
-      "source": [
-        "src/hello_assets/assets"
-      ],
-      "dependencies": [
-        "hello"
-      ]
     }
   },
   "defaults": {
